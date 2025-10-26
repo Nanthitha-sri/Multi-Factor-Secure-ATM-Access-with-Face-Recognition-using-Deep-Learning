@@ -1,13 +1,16 @@
+Problem:
 ATM was made to transact for the particular bank accounts but later on the ATMs are connected to interbank network.
 The main disadvantage of ATMs are that if the pin is known to anyone, They can use it to take money, so here we implement multifactor user authentication for security purposes.
 To reduce the risk of fraudulent activity, several controls can be integrated into the ATM processing environment.
 The main use of the Biometric is that it is unique for a person, so we can identify the unauthorized person before they took our money from account.
 
-Multi-Factor Secure ATM Access with Face Recognition using Deep Learning
+Solution Created:
+
+Title: Multi-Factor Secure ATM Access with Face Recognition using Deep Learning
 
 A deep learning-based ATM security system that combines Face Recognition, PIN verification, and OTP authentication to provide multi-layer protection against unauthorized access.
 
-Overview
+Overview:
 
 This project aims to make ATM transactions more secure by using biometric face recognition along with traditional verification methods. The system authenticates users through three layers:
 
@@ -16,14 +19,14 @@ This project aims to make ATM transactions more secure by using biometric face r
 3. OTP Verification – Adds an extra security step using one-time passwords.
 
 
-Technologies Used
+Technologies Used:
 
 Python
-OpenCV (for face detection and recognition)
-Haar Cascade Classifier
-Tkinter (for simple GUI)
-NumPy, Pandas
-SMTP (for OTP generation and sending)
+OpenCV (Haar Cascade and FisherFace Recognizer)
+Streamlit (for interactive interface)
+SMTP (for sending OTP emails)
+Tkinter (for OTP generation)
+NumPy, Pickle, Base64
 
 Working:
 
